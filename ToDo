@@ -1,0 +1,6 @@
+* Split out server page setup (server->on...) section.
+* Add optional callback for further server serup, called by WiFiManager::setupConfigPortal.
+	- Should this "override" existing setup? Optionally call original?
+	- Captive portal redirect - determine if configured; if NOT configured redirect to config page. If conigured, redirect to explicit app page.
+* Allow optional overrides for standard HTML.
+* Look at improving HTML construction.
